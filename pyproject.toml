@@ -25,4 +25,6 @@ dev = ['pytest>=7.4.4', 'matplotlib', 'pandas', "twine>=6.1.0"]
 [project.urls]
 Homepage = 'https://github.com/dhairyagupta2603/better-namespaces'
 
+[tool.setuptools]
+license-files = ["LICENSE"]
 
