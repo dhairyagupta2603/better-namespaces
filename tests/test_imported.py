@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 from better_namespaces import NamespaceGroup
-from pprint import pprint
 
 def test_context_manager():
     with NamespaceGroup() as foo:
@@ -13,8 +12,6 @@ def test_context_manager():
     attrs = dir(foo) 
     assert 'pd' in attrs
     assert 'plt' in attrs
-
-    pprint(locals())
 
 
 if __name__ == '__main__':
