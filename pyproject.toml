@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "better-namespaces"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
   { name="Dhairya Gupta" },
 ]
@@ -20,7 +20,9 @@ classifiers = [
 keywords = ['namespace', 'context-manager', 'utility']
 
 [project.optional-dependencies]
-dev = ['pytest', 'matplotlib', 'pandas']
+dev = ['pytest>=7.4.4', 'matplotlib', 'pandas', "twine>=6.1.0"]
 
 [project.urls]
 Homepage = 'https://github.com/dhairyagupta2603/better-namespaces'
+
+

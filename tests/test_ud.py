@@ -14,9 +14,6 @@ def test_context_manager():
         
         def bar(name):
             return f'Hi! {name}'
-    
-        foo.add(Bar) 
-        foo.add(bar) 
 
     assert f"{type(foo)}" == "<class 'better_namespaces.context_group.NamespaceGroup'>" 
 
